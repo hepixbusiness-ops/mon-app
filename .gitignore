@@ -1,0 +1,21 @@
+node_modules/
+.expo/
+.env
+.env.local
+dist/
+web-build/
+
+# Certificats & clés de build
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Expo / Metro
+.metro-health-check*

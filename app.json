@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "FinanceOS",
+    "slug": "financeos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0b"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hepixbusiness.financeos"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0b"
+      },
+      "package": "com.hepixbusiness.financeos"
+    },
+    "newArchEnabled": false,
+    "plugins": [
+      "expo-font",
+      "expo-sqlite",
+      ["expo-image-picker", { "photosPermission": "Permet d'ajouter des photos de reçus." }],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "2.1.21"
+          }
+        }
+      ]
+    ]
+  }
+}
